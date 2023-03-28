@@ -1,4 +1,5 @@
-
+# Iniciar o projeto
+php index.php
 # Criação da Cruz
 Essas linhas de código são responsáveis por desenhar a cruz. Primeiro, abrimos um loop for que itera pelas linhas da cruz. Em seguida, abrimos outro loop for que itera pelas colunas da cruz.
 
@@ -25,6 +26,7 @@ A variável $j é inicializada com o valor 1 e a condição $j <= $size verifica
 Dentro do bloco de código do for, podemos fazer referência à variável $j para acessar a coluna atual da matriz de desenho. Por exemplo, na condição if ($i == $j) { }, estamos verificando se a linha atual ($i) é igual à coluna atual ($j), o que indica que estamos na diagonal principal da matriz de desenho.
 
 Ao final de cada iteração do for, a variável $j é incrementada em 1 (por meio do operador ++), o que faz com que a próxima coluna da matriz de desenho seja processada na próxima iteração. Quando o valor de $j alcançar o valor de $size + 1, o loop for será encerrado.
+
 
 
 # Criação do X
